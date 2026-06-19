@@ -42,46 +42,6 @@ module.exports = {
         heading: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
         body: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
       },
-      animation: {
-        'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
-        'fade-in': 'fadeIn 0.5s ease-out forwards',
-        'slide-in-left': 'slideInLeft 0.6s ease-out forwards',
-        'slide-in-right': 'slideInRight 0.6s ease-out forwards',
-        'marquee': 'marquee 25s linear infinite',
-        'counter': 'counter 2s ease-out forwards',
-        'shimmer': 'shimmer 2s infinite',
-      },
-      keyframes: {
-        fadeInUp: {
-          from: { opacity: '0', transform: 'translateY(30px)' },
-          to: { opacity: '1', transform: 'translateY(0)' },
-        },
-        fadeIn: {
-          from: { opacity: '0' },
-          to: { opacity: '1' },
-        },
-        slideInLeft: {
-          from: { opacity: '0', transform: 'translateX(-30px)' },
-          to: { opacity: '1', transform: 'translateX(0)' },
-        },
-        slideInRight: {
-          from: { opacity: '0', transform: 'translateX(30px)' },
-          to: { opacity: '1', transform: 'translateX(0)' },
-        },
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-50%)' },
-        },
-        shimmer: {
-          '0%': { backgroundPosition: '-200% 0' },
-          '100%': { backgroundPosition: '200% 0' },
-        },
-      },
-      boxShadow: {
-        'card': '0 4px 20px rgba(0,0,0,0.08)',
-        'card-hover': '0 8px 30px rgba(0,0,0,0.15)',
-        'gold': '0 4px 20px rgba(212,168,83,0.3)',
-      },
     },
   },
   plugins: [],
